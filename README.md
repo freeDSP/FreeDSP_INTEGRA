@@ -1,6 +1,6 @@
 # FreeDSP_INTEGRA
 
-A DSP Board with Embedded Power Amplifier
+A DSP Board with Embedded Power Amplifier  
 Details are stated in the [wiki page](https://github.com/freeDSP/FreeDSP_INTEGRA/wiki)  
   
 BALANCED XLR INPUT VERSION 
