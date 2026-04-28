@@ -1,0 +1,281 @@
+
+(rules PCB FreeDSP_INTEGRA_DUO
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout on)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 105678)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.6)
+      (against_preferred_direction_trace_costs 3.1)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.5)
+    )
+    (layer_rule In2.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.6)
+      (against_preferred_direction_trace_costs 3.1)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 150.0)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 37.6 (type smd_smd))
+  )
+  (padstack "Via[0-3]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_1000:700_um"
+    (shape
+      (circle F.Cu 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1000.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_1600:1000_um"
+    (shape
+      (circle F.Cu 1600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 1600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 1600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_700:400_um"
+    (shape
+      (circle F.Cu 700.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 700.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 700.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 700.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_700:300_um"
+    (shape
+      (circle F.Cu 700.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 700.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 700.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 700.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_800:400_um" "Via[0-3]_800:400_um" default
+  )
+  (via 
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
+  )
+  (via 
+    "Via[0-3]_1000:700_um" "Via[0-3]_1000:700_um" default
+  )
+  (via 
+    "Via[0-3]_1600:1000_um" "Via[0-3]_1600:1000_um" default
+  )
+  (via 
+    "Via[0-3]_700:300_um" "Via[0-3]_700:300_um" default
+  )
+  (via 
+    "Via[0-3]_700:400_um" "Via[0-3]_700:400_um" default
+  )
+  (via 
+    "Via[0-3]_800:400_um-kicad_default" "Via[0-3]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_600:300_um-kicad_default" "Via[0-3]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_1000:700_um-kicad_default" "Via[0-3]_1000:700_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_1600:1000_um-kicad_default" "Via[0-3]_1600:1000_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_700:300_um-kicad_default" "Via[0-3]_700:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_700:400_um-kicad_default" "Via[0-3]_700:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_800:400_um-TAS-PINS" "Via[0-3]_800:400_um" "TAS-PINS"
+  )
+  (via 
+    "Via[0-3]_600:300_um-TAS-PINS" "Via[0-3]_600:300_um" "TAS-PINS"
+  )
+  (via 
+    "Via[0-3]_1000:700_um-TAS-PINS" "Via[0-3]_1000:700_um" "TAS-PINS"
+  )
+  (via 
+    "Via[0-3]_1600:1000_um-TAS-PINS" "Via[0-3]_1600:1000_um" "TAS-PINS"
+  )
+  (via 
+    "Via[0-3]_700:300_um-TAS-PINS" "Via[0-3]_700:300_um" "TAS-PINS"
+  )
+  (via 
+    "Via[0-3]_700:400_um-TAS-PINS" "Via[0-3]_700:400_um" "TAS-PINS"
+  )
+  (via_rule
+    default "Via[0-3]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_800:400_um-kicad_default"
+  )
+  (via_rule
+    "TAS-PINS" "Via[0-3]_800:400_um-TAS-PINS"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (layer_rule In1.Cu
+      (rule 
+        (width 0.0) 
+      )
+    )
+    (circuit 
+      (use_layer F.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "/YAM_PSU_IO/PSU+" GND "/YAM_PSU_IO/SWITCHED+" GNDD GNDA +24V +10V Earth
+    "/YAM_PSU_IO/PSU-" "-5VA" "/Audio_ADC/ADC_3V3" +5VA +3.3V VDD "unconnected-(A1-F3-Pad20)" "unconnected-(A1-MCLK-Pad6)"
+    "Net-(A1-PLUG)" SDA SCL "Net-(A1-MUTE)" +12V "unconnected-(A1-F2-Pad19)" "unconnected-(A1-F1-Pad18)" "unconnected-(A1-F0-Pad17)"
+    "unconnected-(A1-DSD128-Pad16)" "Net-(A1-DSD_ON)" "Net-(U1-VS)" "Net-(IC1-VCOM)" "Net-(IC1-AREF)" "Net-(IC1-GVDD_1)" "Net-(IC1-VREG)" "Net-(IC1-AVDD)"
+    ~{STBY} "AMA_SDA" "Net-(IC1-AVSS)" +VSW "Net-(IC1-GVDD_2)" "Net-(D17-K)" "LRK_IN1" "DAT_IN2"
+    "AMA_SCL" "Net-(IC1-BST_2P)" "Net-(IC1-OUT_2P)" +5V "/YAM_DSP-ADC_IO/DVDD" "Net-(IC1-BST_2M)" "Net-(IC1-OUT_2M)" "Net-(IC1-OUT_1P)"
+    "Net-(IC1-BST_1P)" "Net-(IC1-OUT_1M)" AUX0 AUX1 AUX2 AUX3 AUX4 "~{DSP-RESET}"
+    "RP_SCL" MCLK "RP_SDA" +3.3VP "Net-(IC1-BST_1M)" "I2C_SDA" "I2C_SCL" "/YAM_DSP-ADC_IO/EEPROM_6"
+    "/YAM_DSP-ADC_IO/EEPROM_2" "/YAM_DSP-ADC_IO/EEPROM_5" "Net-(J2-Pin_2)" "DSP_RES" "EX_SDA" "EX_SCL" "Net-(J2-Pin_1)" "Net-(J1-Pin_2)"
+    "Net-(J1-Pin_1)" "Net-(D4-A)" "Net-(Q2-C)" "Net-(D6-K)" "LRK_IN3" "BCK_IN3" "DAT_IN3" "Net-(D8-K)"
+    "Net-(IC2-BOOT)" "Net-(U4-VI)" "Net-(D9-A)" "Net-(U3-SW)" "/YAM_DSP-ADC_IO/958RX" "Net-(U5-VO)" "DAT_IN0" "BCK_IN0"
+    "LRK_IN0" "/YAM_DSP-ADC_IO/958TX" "Net-(D10-K)" "Net-(R118-Pad2)" "Net-(U6-BOOT)" "/YAM_DSP-ADC_IO/EEPROM_1" "Net-(U4-VO)" "Net-(C70-Pad2)"
+    "Net-(U3-NFB)" "Net-(C73-Pad1)" "Net-(Q6-B)" "Net-(U11-PVDD)" "Net-(C86-Pad1)" "Net-(U7-VCC)" "Net-(U11-PLL_FILT)" "Net-(C104-Pad1)"
+    "Net-(C97-Pad1)" "Net-(D13-A)" "Net-(U10-A)" "Net-(U10-Y)" "Net-(D15-A)" "Net-(U11-AVDD)" "Net-(C118-Pad1)" "Net-(U14-3V3)"
+    "USB_ON" "Net-(J13A-Ext1)" "Net-(J13B-Ext2)" "Net-(C126-Pad2)" "Net-(C127-Pad2)" "Net-(U15B-+)" MCLK0 "LRK_OUT0"
+    "BCK_OUT0" "DAT_OUT0" "LRK_OUT1" "BCK_OUT1" "DAT_OUT1" "/Audio_ADC/RIGHT_HOT" "Net-(C131-Pad1)" "Net-(C132-Pad1)"
+    "/YAM_DSP-ADC_IO/GPIO7(SPI1_CE_N)" "/YAM_DSP-ADC_IO/GPIO9(SPI0_MISO)" "/YAM_DSP-ADC_IO/GPIO5" "/YAM_DSP-ADC_IO/GPIO14(TXD0)" "/YAM_DSP-ADC_IO/GPIO4(GCLK)" "/YAM_DSP-ADC_IO/GPIO12(PWM0)" "/YAM_DSP-ADC_IO/GPIO6" "/YAM_DSP-ADC_IO/GPIO16"
+    "/YAM_DSP-ADC_IO/GPIO13(PWM1)" "/YAM_DSP-ADC_IO/GPIO20(SPI1_MOSI)" "/YAM_DSP-ADC_IO/GPIO10(SPI0_MOSI)" "/YAM_DSP-ADC_IO/GPIO15(RXD0)" "/YAM_DSP-ADC_IO/GPIO27(GEN2)" "/YAM_DSP-ADC_IO/ID_SC" "/YAM_DSP-ADC_IO/ID_SD" "/YAM_DSP-ADC_IO/GPIO8(SPI0_CE_N)"
+    "/YAM_DSP-ADC_IO/GPIO11(SPI0_SCK)" "/YAM_DSP-ADC_IO/GPIO22(GEN3)" "/Audio_ADC/RIGHT_COLD" ~{MUTE} "/YAM_DSP-ADC_IO/AES_HOT" "/YAM_DSP-ADC_IO/AES_COLD" "Net-(JP8-Pad2)" "GPIO25(GEN6)"
+    GPIO26 "GPIO17(GEN0)" "/Audio_ADC/ADC_BIAS" "/Audio_ADC/LEFT_HOT" "Net-(C136-Pad1)" "/Audio_ADC/LEFT_COLD" "Net-(C137-Pad1)" GPIO24
+    GPIO23 "Net-(U15A-+)" "Net-(C143-Pad1)" "Net-(C144-Pad2)" "Net-(C145-Pad1)" "Net-(C146-Pad2)" "Net-(IC3-VREFH2)" "Net-(IC3-AIN2P)"
+    "Net-(IC3-AIN2N)" "Net-(IC3-AIN3P)" "Net-(IC3-AIN3N)" "Net-(IC3-AIN4N)" "Net-(IC3-AIN4P)" "Net-(D30-K)" "Net-(IC3-VREFH1)" "Net-(IC3-AVDD)"
+    "Net-(IC3-VDD18)" "Net-(IC3-AIN1N)" "Net-(IC3-AIN1P)" "Net-(D1-K)" "/~{RASPI_OFF}" "Net-(D3-RK)" "Net-(D3-A)" "Net-(D7-K)"
+    "Net-(D12-A)" "Net-(D18-K)" "Net-(D19-A)" "Net-(D21-A)" "Net-(D22-K)" "SRC_BIT0" "Net-(D24-K)" "SRC_BIT1"
+    "/Audio_ADC/OVF" "unconnected-(IC1-NC_2-Pad45)" "unconnected-(IC1-NC_6-Pad51)" "unconnected-(IC1-NC_8-Pad54)" "unconnected-(IC1-NC_4-Pad48)" "unconnected-(IC1-NC_1-Pad44)" "unconnected-(IC1-NC_3-Pad47)" "unconnected-(IC1-NC_7-Pad53)"
+    "unconnected-(IC1-NC_5-Pad50)" "unconnected-(IC2-NC-Pad3)" "unconnected-(IC2-NC-Pad2)" "Net-(IC2-VSENSE)" "Net-(IC2-EN)" "Net-(IC3-CKS0{slash}SDA{slash}CDTI)" "Net-(IC3-SD{slash}PMOD)" "Net-(IC3-SDTO2{slash}DSDOR2)"
+    "Net-(IC3-LRCK{slash}DSDOL1)" "Net-(IC3-TDM1)" "Net-(IC3-SLOW{slash}DCKB)" "Net-(IC3-HPFE{slash}DCKS)" "Net-(IC3-SDTO1{slash}DSDOL2)" "unconnected-(IC3-TDMIN{slash}DSDOR1-Pad27)" "Net-(IC3-CKS2{slash}SCL{slash}CCLK)" "Net-(IC3-BICK{slash}DCLK)"
+    "unconnected-(IC3-TEST-Pad15)" "unconnected-(J9-P2-Pad2)" "Net-(J9-P4)" "Net-(J9-P6)" "unconnected-(J9-P9-Pad9)" "unconnected-(J9-P7-Pad7)" "unconnected-(J9-P5-Pad5)" "unconnected-(J9-P8-Pad8)"
+    "unconnected-(J12-Pin_3-Pad3)" "Net-(J12-Pin_2)" "Net-(J13A-In1)" "Net-(J13B-In2)" "Net-(J16-Pin_1)" "/Micom_DIsplay/RENC_B" "/Micom_DIsplay/RENC_A" "/Micom_DIsplay/MODE_SW"
+    "Net-(J19-Pin_3)" "/Micom_DIsplay/ICSP_DAT" "/Micom_DIsplay/ICSP_CLK" "/Micom_DIsplay/MCLR" "unconnected-(J20-Pin_6-Pad6)" "SRC_CTRL" "Net-(JP2-A)" "Net-(JP3-Pad2)"
+    "Net-(U11-SELFBOOT)" "Net-(U13-~{WP})" "Net-(P1-Pin_12)" "Net-(P1-Pin_40)" "Net-(P1-Pin_35)" "Net-(Q2-B)" "Net-(Q2-E)" "Net-(Q4-G)"
+    "Net-(Q7-D)" "Net-(Q10-B)" "Net-(Q10-C)" "Net-(Q13-D)" "Net-(R2-Pad2)" "Net-(SW1-4)" "Net-(U1-OUT)" "Net-(U2-EN)"
+    "Net-(U2-VSENSE)" "Net-(U6-EN)" "Net-(U3-~{SHDN})" "Net-(U5-ADJ)" "Net-(U4-ADJ)" "Net-(R35-Pad2)" "Net-(U6-VSENSE)" "Net-(D11-A)"
+    "Net-(U7-RX)" "Net-(R47-Pad1)" "Net-(U11-XTALIN{slash}MCLK)" "Net-(Y1-OUT)" "Net-(U9-Y)" "Net-(R59-Pad2)" "Net-(U9-A)" "Net-(U11-CLKOUT)"
+    "Net-(U11-SPDIF_OUT)" "Net-(U11-LRCLK_OUT0{slash}MP4)" "Net-(U11-BCLK_OUT0)" "Net-(U11-SDATA_OUT0)" "Net-(U11-LRCLK_OUT1{slash}MP5)" "Net-(U11-BCLK_OUT1)" "Net-(U11-SDATA_OUT1)" "Net-(U11-SS_M{slash}MP0)"
+    "Net-(U11-MOSI_M{slash}MP1)" "Net-(U11-SCL_M{slash}SCLK_M{slash}MP2)" "Net-(U13-MISO)" "Net-(U14-D5{slash}SCL)" "Net-(U14-D4{slash}SDA)" "Net-(U14-5V)" "Net-(U16A--)" "Net-(R135-Pad2)"
+    "Net-(D31-K)" "DAT_IN1" "Net-(U18-VCAP{slash}SEG1{slash}CLKOUT{slash}OSC2{slash}RA6)" "Net-(U18-VCAP{slash}*SS{slash}SEG12{slash}SRNQ{slash}C2OUT{slash}C12IN0-{slash}AN0{slash}RA0)" "Net-(U18-SEG7{slash}C12IN1-{slash}AN1{slash}RA1)" "Net-(U18-COM2{slash}DACOUT{slash}C2IN+{slash}VREF-{slash}AN2{slash}RA2)" "/Micom_DIsplay/SEG-dp" "/Micom_DIsplay/SEG-g"
+    "/Micom_DIsplay/SEG_f" "Net-(U18-RB5{slash}AN13{slash}P2B{slash}CCP3{slash}P3A{slash}CPS5{slash}T1G{slash}COM1)" "Net-(U18-RB4{slash}AN11{slash}P1D{slash}CPS4{slash}COM0)" "/Micom_DIsplay/SEG-e" "Net-(U18-RB3{slash}AN9{slash}C12IN2-{slash}CPS3{slash}CCP2{slash}P2A{slash}VLCD3)" "/Micom_DIsplay/SEG-d" "/Micom_DIsplay/SEG-c" "Net-(U18-RB2{slash}AN8{slash}P1B{slash}CPS2{slash}VLCD2)"
+    "/Micom_DIsplay/SEG_b" "Net-(U18-RB1{slash}AN10{slash}C12IN3-{slash}P1C{slash}CPS1{slash}VLCD1)" "Net-(U18-RB0{slash}AN12{slash}CCP4{slash}CPS0{slash}SRI{slash}INT{slash}SEG0)" "/Micom_DIsplay/<NO NET>" "/Micom_DIsplay/PIC_SDA" "/Micom_DIsplay/AMP_STBY" "Net-(U2-BOOT)" "unconnected-(U2-NC-Pad2)"
+    "unconnected-(U2-NC-Pad3)" "unconnected-(U6-NC-Pad3)" "unconnected-(U6-NC-Pad2)" "unconnected-(U9-NC-Pad1)" "unconnected-(U10-NC-Pad1)" "unconnected-(U11-BCLK_OUT2-Pad48)" "unconnected-(U11-SDATA_OUT2-Pad49)" "unconnected-(U11-BCLK_OUT3-Pad51)"
+    "unconnected-(U11-THD_M-Pad63)" "unconnected-(U11-THD_P-Pad64)" "BCK_IN1" "unconnected-(U11-SDATA_OUT3-Pad52)" "unconnected-(U11-XTALOUT-Pad22)" "unconnected-(U14-D9{slash}MISO-Pad10)" "unconnected-(U14-D10{slash}MOSI-Pad11)" "unconnected-(U14-D7{slash}RX-Pad8)"
+    "unconnected-(U14-D6{slash}TX-Pad7)" "unconnected-(U14-D3-Pad4)" "unconnected-(U14-D8{slash}SCK-Pad9)" "unconnected-(U18-SEG15{slash}COM3{slash}C1IN+{slash}VREF+{slash}AN3{slash}RA3-Pad5)" "/Micom_DIsplay/DIG1" "/Micom_DIsplay/DIG5" "/Micom_DIsplay/DIG2" "unconnected-(U17-NC-Pad9)"
+    "/Micom_DIsplay/DIG3" "/Micom_DIsplay/DIG4" "/Micom_DIsplay/IR_SENS" "/Micom_DIsplay/SEL_BIT0" "/YAM_DSP-ADC_IO/<NO NET>" "/YAM_DSP-ADC_IO/BCK_USB" "/YAM_DSP-ADC_IO/DAT_USB" "unconnected-(U18-SEG4{slash}CCP5{slash}SRNQ{slash}C1OUT{slash}T0CKI{slash}CPS6{slash}RA4-Pad6)"
+    "unconnected-(U18-VCAP{slash}SEG5{slash}*SS{slash}CPS7{slash}SRNQ{slash}C2OUT{slash}AN4{slash}RA5-Pad7)" "Net-(IC4-OUT-)" "unconnected-(IC4-ENB-Pad7)" "Net-(IC4-IN-)" "Net-(IC4-IN+)" "Net-(IC4-OUT+)" "Net-(IC5-VCOM)" "Net-(IC5-OUT+)"
+    "Net-(IC5-IN+)" "Net-(IC5-OUT-)" "unconnected-(IC5-ENB-Pad7)" "Net-(IC5-IN-)" "Net-(U16B--)" "/Micom_DIsplay/SEL_BIT1" "/Micom_DIsplay/SEL_CTRL" MP8
+    MP9 MP12 "Net-(U11-BCLK_IN2)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "TAS-PINS"
+    GNDS
+    (clearance_class "TAS-PINS")
+    (via_rule TAS-PINS)
+    (rule
+      (width 434.0)
+    )
+    (circuit 
+      (use_layer F.Cu In2.Cu B.Cu)
+    )
+  )
+)
