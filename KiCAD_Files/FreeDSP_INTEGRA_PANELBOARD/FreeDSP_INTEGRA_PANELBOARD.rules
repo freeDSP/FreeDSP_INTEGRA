@@ -1,0 +1,82 @@
+
+(rules PCB FreeDSP_INTEGRA_Remote_DL
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout on)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 986)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 4.3)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.3)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 150.0)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 37.6 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND "Net-(D00-K)" "Net-(D01-A)" "/SEL_BIT1" "/SEL_BIT0" "Net-(D10-A)" /MCLR "/IR_SENS"
+    "/ICSP_DAT" "/ICSP_CLK" "/PIC_SDA" "/PIC_SCL" "Net-(J22-Pin_2)" "Net-(J22-Pin_4)" "Net-(J22-Pin_3)" "Net-(J22-Pin_5)"
+    "/AMP_STBY" Earth "/MODE_SW" "/RENC_A" "/RENC_B" "/SEL_CTRL" "/SEG-dp" "/SEG-g"
+    "/SEG-f" "/SEG-e" "/SEG-d" "/SEG-c" "/SEG-b" "/SEG-a" /DIG5 /DIG2
+    /DIG1 /DIG3 /DIG4 "Net-(U1-Pin_3)" "Net-(D32-K)" /MP5 +3.3V VDD
+    "unconnected-(J20-Pin_6-Pad6)" "Net-(D11-A)" "Net-(U18-RB5{slash}AN13{slash}P2B{slash}CCP3{slash}P3A{slash}CPS5{slash}T1G{slash}COM1)" "Net-(U18-RB4{slash}AN11{slash}P1D{slash}CPS4{slash}COM0)" "Net-(U18-RB3{slash}AN9{slash}C12IN2-{slash}CPS3{slash}CCP2{slash}P2A{slash}VLCD3)" "Net-(U18-RB2{slash}AN8{slash}P1B{slash}CPS2{slash}VLCD2)" "Net-(U18-RB1{slash}AN10{slash}C12IN3-{slash}P1C{slash}CPS1{slash}VLCD1)" "Net-(U18-RB0{slash}AN12{slash}CCP4{slash}CPS0{slash}SRI{slash}INT{slash}SEG0)"
+    "unconnected-(U17-NC-Pad9)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
