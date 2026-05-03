@@ -6,10 +6,10 @@ Wiki
 Details are stated in the [wiki page](https://github.com/freeDSP/FreeDSP_INTEGRA/wiki)  
   
 # Variations  
-## BALANCED XLR INPUT VERSION 
+## INTEGRA-QUAD BALANCED XLR INPUT VERSION 
 ![INTEGRA_XLR](https://github.com/user-attachments/assets/1676a183-cc8e-46c8-bb8b-2401db596ea8)
 
-## RCA-PIN INPUT VERSION
+## INTEGRA-QUAD RCA-PIN INPUT VERSION
 ![INTEGRA_RCA](https://github.com/user-attachments/assets/b03c8ab6-c95c-4b26-9102-900841d83d69)
 
 
