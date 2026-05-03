@@ -12,10 +12,10 @@ Details are stated in the [wiki page](https://github.com/freeDSP/FreeDSP_INTEGRA
 ## INTEGRA-QUAD RCA-PIN INPUT VERSION
 ![INTEGRA_RCA](https://github.com/user-attachments/assets/b03c8ab6-c95c-4b26-9102-900841d83d69)
 
-
-![BoardDiscription](https://github.com/user-attachments/assets/25a79007-0ca2-4310-af2a-8841e9929202)  
   
 ## Features:
+
+![BoardDiscription](https://github.com/user-attachments/assets/25a79007-0ca2-4310-af2a-8841e9929202)  
 
             Double Differential ADC Input Circuit
             Balanced-XLR Input  or Differential RCA-pin Analog Input
