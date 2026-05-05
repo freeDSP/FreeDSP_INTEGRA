@@ -7,7 +7,7 @@
 	(title_block
 		(title "TAS6422 FreeDSP INTEGRA Remote")
 		(date "2026-03-31")
-		(rev "0.11")
+		(rev "0.12")
 		(company "Designed by CyberPit HILO 2026")
 		(comment 4 "User Interfaces, TAS6424 Power Amplifier Part, Root Schematic")
 	)
@@ -12380,7 +12380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "47R"
 			(at 210.185 104.14 90)
 			(effects
 				(font
@@ -12700,7 +12700,7 @@
 				)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "47R"
 			(at 167.64 135.89 90)
 			(effects
 				(font
@@ -13021,7 +13021,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_RED"
+		(property "Value" "LED_YELLOW"
 			(at 143.51 42.2401 90)
 			(effects
 				(font
@@ -13455,7 +13455,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "390R"
+		(property "Value" "470R"
 			(at 77.47 33.02 90)
 			(effects
 				(font
@@ -13901,7 +13901,7 @@
 				)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "47R"
 			(at 167.64 133.35 90)
 			(effects
 				(font
@@ -14605,7 +14605,7 @@
 				)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "47R"
 			(at 167.64 128.27 90)
 			(effects
 				(font
@@ -15279,6 +15279,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "JLPCB#" "HAND"
@@ -15696,7 +15697,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_RED"
+		(property "Value" "LED_YELLOW"
 			(at 54.61 34.6201 90)
 			(effects
 				(font
@@ -16319,7 +16320,7 @@
 				)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "47R"
 			(at 167.64 143.51 90)
 			(effects
 				(font
@@ -16638,7 +16639,7 @@
 				)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "47R"
 			(at 167.64 138.43 90)
 			(effects
 				(font
@@ -16959,7 +16960,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_RED"
+		(property "Value" "LED_YELLOW"
 			(at 81.28 42.2401 90)
 			(effects
 				(font
@@ -17912,7 +17913,7 @@
 				)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "47R"
 			(at 167.64 125.73 90)
 			(effects
 				(font
@@ -19793,7 +19794,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_RED"
+		(property "Value" "LED_YELLOW"
 			(at 109.22 43.5101 90)
 			(effects
 				(font
@@ -20096,7 +20097,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "47R"
 			(at 210.185 106.68 90)
 			(effects
 				(font
@@ -20416,7 +20417,7 @@
 				)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "47R"
 			(at 167.64 130.81 90)
 			(effects
 				(font
@@ -21827,7 +21828,7 @@
 				)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "47R"
 			(at 167.64 140.97 90)
 			(effects
 				(font
@@ -24126,7 +24127,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "ccac88d9-d6b2-45c6-9fb5-de3d88421870")
 		(property "Reference" "C2"
 			(at 147.955 179.07 90)
@@ -25101,7 +25102,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "390R"
+		(property "Value" "470R"
 			(at 105.41 34.29 90)
 			(effects
 				(font
@@ -25422,7 +25423,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "47R"
 			(at 210.185 109.22 90)
 			(effects
 				(font
@@ -26452,7 +26453,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "47R"
 			(at 210.185 111.76 90)
 			(effects
 				(font
