@@ -34,7 +34,7 @@ Details are stated in the [wiki page](https://github.com/freeDSP/FreeDSP_INTEGRA
 
 # Optional Board  
 ![   Front Panel Extension Board](https://github.com/freeDSP/FreeDSP_INTEGRA/tree/main/KiCAD_Files/FreeDSP_INTEGRA_PANELBOARD)  
-<img width="3840" height="2160" alt="IMG_8236" src="https://github.com/user-attachments/assets/7c8da96d-fba9-4695-b11c-7e4eebd19771" />
+<img width="3840" height="1773" alt="IMG_8262" src="https://github.com/user-attachments/assets/802520d8-53b4-4599-8bdb-feb6b4e15405" />
 
 # Audio Performance 
 ADC Distortion Performance  
