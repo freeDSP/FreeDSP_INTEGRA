@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "TAS6422 FreeDSP INTEGRA QUAD PRO")
-		(date "2026-02-07")
-		(rev "0.4")
+		(date "2026-05-19")
+		(rev "0.41")
 		(company "Designed by CyberPit HILO 2026")
 		(comment 4 "Power Supply Unit part")
 	)
@@ -13507,11 +13507,13 @@
 				)
 			)
 		)
-		(property "Value" "22uF/16V"
+		(property "Value" "22uF/25V"
 			(at 80.01 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 			)
 		)
@@ -17555,7 +17557,7 @@
 			)
 		)
 		(property "Value" "0.1uF/50V"
-			(at 81.28 230.505 90)
+			(at 81.026 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17753,7 +17755,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF/25V_OS"
+		(property "Value" "820uF/25V_OS"
 			(at 120.65 242.57 90)
 			(effects
 				(font
@@ -17853,7 +17855,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF/25V_OS"
+		(property "Value" "820uF/25V_OS"
 			(at 127 242.57 90)
 			(effects
 				(font
@@ -17953,7 +17955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF/25V_OS"
+		(property "Value" "820uF/25V_OS"
 			(at 133.35 242.57 90)
 			(effects
 				(font
@@ -18053,7 +18055,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF/25V_OS"
+		(property "Value" "820uF/25V_OS"
 			(at 139.7 242.57 90)
 			(effects
 				(font
@@ -18487,7 +18489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF/25V_OS"
+		(property "Value" "820uF/25V_OS"
 			(at 146.05 242.57 90)
 			(effects
 				(font
@@ -18587,7 +18589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF/25V_OS"
+		(property "Value" "820uF/25V_OS"
 			(at 152.4 242.57 90)
 			(effects
 				(font
@@ -18687,7 +18689,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF/25V_OS"
+		(property "Value" "820uF/25V_OS"
 			(at 158.75 242.57 90)
 			(effects
 				(font
@@ -18787,7 +18789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF/25V_OS"
+		(property "Value" "820uF/25V_OS"
 			(at 165.1 242.57 90)
 			(effects
 				(font
