@@ -41,4 +41,6 @@ Project [Web page (Japanese)](https://cyberpithilo.web.fc2.com/audio/FreeDSP_INT
 
 # Audio Performance 
 ADC Distortion Performance  
-<img width="683" height="674" alt="Distiortion_1kHz" src="https://github.com/user-attachments/assets/4f2185da-b3ec-4bd9-ae0e-2a7618f682d0" />
+
+<img width="900" height="674" alt="594204503-1d5c8a78-7449-4203-bfe5-b2860b34c397" src="https://github.com/user-attachments/assets/4e58149a-3355-423e-938a-ce43dad7cfe1" />
+
