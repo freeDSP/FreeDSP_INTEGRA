@@ -2,7 +2,7 @@
 
 An integrated four-channel Class-D Anplifier embedded with a DSP processor.
 
-Wiki
+  
 Details are stated in the [wiki page](https://github.com/freeDSP/FreeDSP_INTEGRA/wiki)  
 
 Project [Web page (Japanese)](https://cyberpithilo.web.fc2.com/audio/FreeDSP_INTEGRA/index.html)
@@ -27,12 +27,12 @@ DIY Audio [Forum Thread](https://www.diyaudio.com/community/threads/freedsp-inte
             Optical or Coaxial S/PDIF Input
             Amanero Combo384/YORK pico or XIAO RP2040 USB-Audio Input
             Raspberry-pi ZERO 2W Slot with control buttons
-            TL-232R-3V3 USB-UART Cable Connection Pin-Header
+            TL-232R-3V3 USB-UART Cable Connection Pin-Header for Raspberry-pi
             AUX-ADC pin-header
-            Onboard two Trimmer-POTs
+            Onboard two AUX-ADC Trimmer-POTs
             Optional Toggle Switch for DSP control
             External Front Panel Control PCB connectivity
-            DC24V Single Power
+            DC24V Single Power Supply
 
 # Block Diagram
   ![SystemBlockDiagram](https://github.com/user-attachments/assets/381d5063-06c9-4304-850d-ae921e776cb7)
