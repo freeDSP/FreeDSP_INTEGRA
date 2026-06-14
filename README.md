@@ -6,6 +6,8 @@ Wiki
 Details are stated in the [wiki page](https://github.com/freeDSP/FreeDSP_INTEGRA/wiki)  
 
 Project [Web page (Japanese)](https://cyberpithilo.web.fc2.com/audio/FreeDSP_INTEGRA/index.html)
+  
+DIY Audio [Forum Thread](https://www.diyaudio.com/community/threads/freedsp-integra.420623) 
 
   
 # Variations  
