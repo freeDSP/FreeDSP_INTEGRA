@@ -22,13 +22,13 @@ DIY Audio [Forum Thread](https://www.diyaudio.com/community/threads/freedsp-inte
 
 ![BoardDiscription](https://github.com/user-attachments/assets/25a79007-0ca2-4310-af2a-8841e9929202)  
 
-            Double Differential ADC Input Circuit
+            Double Differential High-Performance ADC Input Circuit
             Balanced-XLR Input  or Differential RCA-pin Analog Input
             Optical or Coaxial S/PDIF Input
             Amanero Combo384/YORK pico or XIAO RP2040 USB-Audio Input
             Raspberry-pi ZERO 2W Slot with control buttons
             TL-232R-3V3 USB-UART Cable Connection Pin-Header for Raspberry-pi
-            AUX-ADC pin-header
+            AUX-ADC pin header
             Onboard two AUX-ADC Trimmer-POTs
             Optional Toggle Switch for DSP control
             External Front Panel Control PCB connectivity
