@@ -1,6 +1,6 @@
 # FreeDSP_INTEGRA
 
-An integrated four-channel 2.1MHz switching Class-D Amplifier embedded with a DSP processor.
+An integrated four-channel 2.1MHz switching Class-D Amplifier embedded with an ADAU1466/1452 DSP processor.
 
   
 Details are stated in the [wiki page](https://github.com/freeDSP/FreeDSP_INTEGRA/wiki)  
